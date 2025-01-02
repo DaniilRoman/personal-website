@@ -14,8 +14,8 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    env:
-      HUGO_CACHEDIR: /tmp/hugo_cache
+#    env:
+#      HUGO_CACHEDIR: /tmp/hugo_cache
 
     steps:
       - name: Checkout Repository
