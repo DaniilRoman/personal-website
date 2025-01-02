@@ -14,8 +14,8 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-#    env:
-#      HUGO_CACHEDIR: /tmp/hugo_cache
+    env:
+      HUGO_CACHEDIR: /tmp/hugo_cache
 
     steps:
       - name: Checkout Repository
@@ -28,19 +28,15 @@ jobs:
         with:
           hugo-version: 'latest'
 
-#      - uses: actions/cache@v4
-#        with:
-#          path: ${{ env.HUGO_CACHEDIR }}
-#          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
-#          restore-keys: |
-#            ${{ runner.os }}-hugomod-
+      - uses: actions/cache@v4
+        with:
+          path: ${{ env.HUGO_CACHEDIR }}
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugomod-
 
       - name: Build Website
         run: hugo --minify
-
-#      - name: Add .nojekyll File
-#        run: |
-#          touch ./public/.nojekyll
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
