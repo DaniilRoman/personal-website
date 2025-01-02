@@ -36,6 +36,10 @@ jobs:
       - name: Build Website
         run: hugo --minify
 
+      - name: Add .nojekyll File
+        run: |
+          touch ./public/.nojekyll
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
