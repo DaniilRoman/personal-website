@@ -22,7 +22,7 @@ params:
   title: Daniil Roman
   description: "Daniil Roman personal website"
   keywords: [Backend, Java, Database]
-  author: Me
+#  author: Me
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -30,7 +30,7 @@ params:
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
@@ -116,16 +116,16 @@ params:
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
-#menu:
-#  main:
-#    - identifier: categories
-#      name: blog
-#      url: /blog/
-#      weight: 10
-#    - identifier: projects
-#      name: projects
-#      url: /projects/
-#      weight: 20
+menu:
+  main:
+    - identifier: blog
+      name: blog
+      url: /blog/
+      weight: 10
+    - identifier: projects
+      name: projects
+      url: /projects/
+      weight: 20
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
