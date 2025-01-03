@@ -80,14 +80,16 @@ params:
     Content: Welcome to my blog
 
   socialIcons:
-    - name: x
-      url: "https://x.com/tech__radar"
     - name: github
       url: "https://github.com/DaniilRoman"
     - name: linkedin
       url: "https://www.linkedin.com/in/daniil-roman/"
     - name: dev
       url: "https://dev.to/daniilroman"
+    - name: substack
+      url: "https://techradar.substack.com/"
+    - name: x
+      url: "https://x.com/tech__radar"
 
 #  analytics:
 #    google:
@@ -114,16 +116,16 @@ params:
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
-menu:
-  main:
-    - identifier: categories
-      name: blog
-      url: /blog/
-      weight: 10
-    - identifier: projects
-      name: projects
-      url: /projects/
-      weight: 20
+#menu:
+#  main:
+#    - identifier: categories
+#      name: blog
+#      url: /blog/
+#      weight: 10
+#    - identifier: projects
+#      name: projects
+#      url: /projects/
+#      weight: 20
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
