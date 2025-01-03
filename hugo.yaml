@@ -1,4 +1,4 @@
-baseURL: https://daniilroman.github.io/personal-website/
+baseURL: https://daniilroman.com
 languageCode: en-us
 title: Daniil Roman
 
@@ -19,8 +19,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: Daniil Roman
+  description: "Daniil Roman personal website"
   keywords: [Backend, Java, Database]
   author: Me
   # author: ["Me", "You"] # multiple authors
