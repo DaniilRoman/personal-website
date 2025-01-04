@@ -3,9 +3,13 @@ title: "Projects"
 description: "A list of my personal projects."
 layout: "projects"
 ---
-## Timelinemap
-https://timelinemap.info/
+## Timeline map
+Timeline map of the cities development over the whole history
+
+[-> timelinemap.info](https://timelinemap.info/)
 
 
-## Substack statistics
-https://substacktrends.daniilroman.com
+## Substack trends
+Substack trends statistics
+
+[-> substacktrends.daniilroman.com](https://substacktrends.daniilroman.com)
