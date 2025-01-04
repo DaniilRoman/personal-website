@@ -8,4 +8,4 @@ https://timelinemap.info/
 
 
 ## Substack statistics
-https://parse-and-analyze.github.io/newsletter-trends/
+https://substacktrends.daniilroman.com
