@@ -51,8 +51,8 @@ params:
     favicon: /waving-hand.svg
     favicon16x16: /waving-hand.svg
     favicon32x32: /waving-hand.svg
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    apple_touch_icon: /waving-hand.svg
+    safari_pinned_tab: /waving-hand.svg
 
   label:
     text: "Home"
