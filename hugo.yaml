@@ -49,8 +49,8 @@ params:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
     favicon: /waving-hand.svg
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
+    favicon16x16: /waving-hand.svg
+    favicon32x32: /waving-hand.svg
     apple_touch_icon: "<link / abs url>"
     safari_pinned_tab: "<link / abs url>"
 
