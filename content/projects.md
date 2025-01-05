@@ -6,7 +6,7 @@ layout: "projects"
 ## Timeline map
 Timeline map of the cities development over the whole history
 
--> [timelinemap.info](https://timelinemap.info/)
+-> [timelinemap.daniilroman.com](https://timelinemap.daniilroman.com/)
 
 
 ## Substack trends
