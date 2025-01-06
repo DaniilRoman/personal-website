@@ -21,7 +21,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Daniil Roman
   description: "Daniil Roman personal website"
-  keywords: [Backend, Java, Database]
+  keywords: [Backend, Java, Database, Distributed systems, Microservices]
 #  author: Me
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -61,18 +61,18 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
+    enabled: true # needs to be explicitly set
+    title: Hi there 👋
+    subtitle: "Here's about Backend development"
+    imageUrl: /logo.jpeg
+    imageWidth: 240
+    imageHeight: 240
     imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+#    buttons:
+#      - name: Blog
+#        url: blog
+#      - name: Projects
+#        url: projects
 
   # home-info mode
   homeInfoParams:
@@ -121,11 +121,11 @@ params:
 menu:
   main:
     - identifier: blog
-      name: blog
+      name: Blog
       url: /blog/
       weight: 10
     - identifier: projects
-      name: projects
+      name: Projects
       url: /projects/
       weight: 20
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
