@@ -1,4 +1,4 @@
-baseURL: https://daniilroman.com
+baseURL: https://blog.daniilroman.com
 languageCode: en-us
 title: Daniil Roman
 
@@ -90,6 +90,8 @@ params:
       url: "https://techradar.substack.com/"
     - name: x
       url: "https://x.com/tech__radar"
+    - name: email
+      url: "daniilroman.cv@gmail.com"
 
 #  analytics:
 #    google:
