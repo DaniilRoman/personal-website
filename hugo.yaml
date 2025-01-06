@@ -39,7 +39,7 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   showtoc: false
@@ -67,12 +67,12 @@ params:
     imageUrl: /logo.jpeg
     imageWidth: 240
     imageHeight: 240
-    imageTitle: my image
-#    buttons:
-#      - name: Blog
-#        url: blog
-#      - name: Projects
-#        url: projects
+    imageTitle: yep, it's me, but from some years ago
+    buttons:
+      - name: Blog
+        url: blog
+      - name: Projects
+        url: projects
 
   # home-info mode
   homeInfoParams:
@@ -98,9 +98,10 @@ params:
 #      SiteVerificationTag: "XYZabc"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
     hiddenInSingle: true # hide on single page
+    responsiveImages: true
 
 #  editPost:
 #    URL: "https://github.com/<path_to_repo>/content"
