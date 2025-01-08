@@ -40,18 +40,18 @@ At that time, I worked at a company where we were developing a low-code platform
 
 So, after a few iterations, I came up with this “design”.
 
-![high level system design](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fxcpar22b8tlpfg6z9d6.png)
+![high level system design](/chatbot-for-grandma/final-arch.png)
 Each Alisa icon and Telegram icon represents a separate chat-bot.
 
 I opted to use two different chat-bots for Alisa to ensure that I don't have any NLP logic embedded within my chat-bot scenario. Instead, I've dedicated the NLP logic to the higher level within the Alisa framework, rather than incorporating it directly into the chat-bot.
 
 But what does this mean? If I had included NLP logic within my chat-bot, let's call it an app, I would receive plain text messages from my grandma and then route her questions or requests to the appropriate state, handler, or section of my chat-bot's code.
 
-![monolith chat-bot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/b74hmrb0yblw1q0adnbk.png)
+![monolith chat-bot](/chatbot-for-grandma/option-1.png)
 Instead, I rely on Alisa's built-in NLP capability, and when my chat-bot is activated, it signifies that the correct request from my grandma has been successfully recognized. In other words, the right chat-bot wouldn't even be triggered otherwise.
 
 
-![separated chat-bots](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3x46wp51u7tw0lsc6gke.png)
+![separated chat-bots](/chatbot-for-grandma/option-2.png)
 I use Google Sheets as a simple message queue (chosen mainly for its technical convenience). The Telegram bot writes to Google Sheets, and the `Alisa reading bot` retrieves messages from there.
 
 The `Alisa writing bot` can communicate directly with the Telegram bot through the platform.
