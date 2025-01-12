@@ -19,6 +19,6 @@ hidemeta: true
   <img src="/projects/trends-logo.png" alt="Substack Trends Logo" width="40" height="40">
   <h2 style="margin: 0;"><a href="https://substacktrends.daniilroman.com">Substack Trends</a></h2>
 </div>
-<p>Analyze subscription changes per channel across selected categories with detailed Substack statistics.</p>
+<p>Analyze subscribers' change per channel across selected categories for Substack newsletters.</p>
 
 ---
