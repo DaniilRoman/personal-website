@@ -90,6 +90,8 @@ params:
       url: "https://techradar.substack.com/"
     - name: x
       url: "https://x.com/tech__radar"
+    - name: medium
+      url: "https://medium.com/@daniil_roman"
     - name: email
       url: mailto:daniilroman.cv@gmail.com
 
