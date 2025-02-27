@@ -89,7 +89,7 @@ params:
     - name: substack
       url: "https://techradar.substack.com/"
     - name: x
-      url: "https://x.com/tech__radar"
+      url: "https://x.com/daniil__roman"
     - name: medium
       url: "https://medium.com/@daniil_roman"
     - name: email
