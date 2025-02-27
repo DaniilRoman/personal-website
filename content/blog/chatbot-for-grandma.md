@@ -1,5 +1,7 @@
 ---
 date: '2025-01-06T20:58:59+01:00'
+author: 'Daniil Roman'
+keywords: 'chatbot,chat-bot,yandex alisa,яндекс алиса,no code,no-code'
 draft: false
 title: 'Chatbot for Grandma'
 cover:
