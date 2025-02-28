@@ -1,0 +1,50 @@
+{
+  "https://medium.com/@daniil_roman/designing-an-application-with-redis-as-a-data-store-what-why-d02e685ee2b8": {
+    "url": "https://medium.com/@daniil_roman/designing-an-application-with-redis-as-a-data-store-what-why-d02e685ee2b8",
+    "title": "Designing an application with Redis as a data store. What? Why?",
+    "description": "For most Redis is a cache and sometimes a message queue. But what if we go a little crazy and try to design an entire application...",
+    "image": "https://miro.medium.com/v2/resize:fit:552/1*8mWzhuVOeReay5fwz4il5g.png"
+  },
+  "https://arxiv.org/abs/2412.13459": {
+    "url": "https://arxiv.org/abs/2412.13459",
+    "title": "4.5 Million (Suspected) Fake Stars in GitHub: A Growing Spiral of Popularity Contests, Scams, and Malware",
+    "description": "GitHub, the de-facto platform for open-source software development, provides a set of social-media-like features to signal high-quality repositories.",
+    "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+  },
+  "https://www.simpleanalytics.com/": {
+    "url": "https://www.simpleanalytics.com/",
+    "title": "The privacy-first Google Analytics alternative - Simple Analytics",
+    "description": "Simple Analytics is the privacy-first Google Analytics alternative that is 100% GDPR compliant. Give us a try!",
+    "image": "https://assets.simpleanalytics.com/social-media/dark-chart.png"
+  },
+  "https://dev.to/daniilroman/how-we-built-elasticsearch-index-8hh": {
+    "url": "https://dev.to/daniilroman/how-we-built-elasticsearch-index-8hh",
+    "title": "How we built Elasticsearch index",
+    "description": "What we wanted to do   Hey everyone. I\u2019m Daniil and I work at Just AI where we are building...",
+    "image": "https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjy3y8d5oi53scwfyqjmg.png"
+  },
+  "https://www.cloudflare.com/": {
+    "url": "https://www.cloudflare.com/",
+    "title": "Connect, protect, and build everywhere",
+    "description": "Make employees, applications and networks faster and more secure everywhere, while reducing complexity and cost.",
+    "image": ""
+  },
+  "https://giscus.app/": {
+    "url": "https://giscus.app/",
+    "title": "giscus",
+    "description": "A comments widget built on GitHub Discussions.",
+    "image": "https://opengraph.githubassets.com/4f866d5b634e7cd5422af77f8dbfb6d48dd288b7c5c18326544c1973210320ed/giscus/giscus"
+  },
+  "https://docs.github.com/en/pages": {
+    "url": "https://docs.github.com/en/pages",
+    "title": "GitHub Pages documentation - GitHub Docs",
+    "description": "Learn how to create a website directly from a repository on GitHub. Explore website building tools like Jekyll and troubleshoot issues with your GitHub...",
+    "image": "https://github.githubassets.com/images/modules/open_graph/github-logo.png"
+  },
+  "https://gohugo.io/": {
+    "url": "https://gohugo.io/",
+    "title": "The world\u2019s fastest framework for building websites",
+    "description": "The world\u2019s fastest framework for building websites",
+    "image": "https://gohugo.io/featured.png"
+  }
+}
