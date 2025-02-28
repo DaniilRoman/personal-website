@@ -1,0 +1,11 @@
+{{- if not (.Param "disableprofile") }}
+<style>
+    .social-icons-local a {
+        width: 40px;
+    }
+</style>
+
+<div class="social-icons-local" style="display: flex; justify-content: center; align-items: center;">
+    {{- partial "social_icons.html" -}}
+</div>
+{{- end }}
