@@ -1,5 +1,5 @@
 ---
-date: '2025-01-06T20:58:59+01:00'
+date: '2025-02-28T20:58:59+01:00'
 author: 'Daniil Roman'
 keywords: 'hugo,github,simple analytics,giscus,tech blog'
 draft: false
