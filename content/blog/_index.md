@@ -1,6 +1,6 @@
 ---
 title: "Blog"
-description: "A list of my blog posts."
+description: ""
 layout: "blog"
 disableprofile: true
 ---

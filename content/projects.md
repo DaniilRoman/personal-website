@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-description: "A list of my personal projects."
+description: ""
 layout: "projects"
 comments: false
 hidemeta: true
