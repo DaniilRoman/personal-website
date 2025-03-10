@@ -1,0 +1,33 @@
+name: Check links
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 5 * * *'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    name: Check links
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out this repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12.7
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.12.7
+
+      - name: Install linkchecker
+        run: pip install linkchecker
+
+      - name: Run link check
+        run: linkchecker https://daniilroman.com --ignore-url https://daniilroman.com/cdn-cgi/l/email-protection
