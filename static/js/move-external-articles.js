@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
             return `
               <article class="post-entry">
                   <figure class="entry-cover">
-                      ${article.thumbnail ? `<img loading="lazy" src="${article.thumbnail}" alt="${article.title}">` : ''}
+                      ${article.thumbnail ? `<img loading="lazy" src="${article.thumbnail}" height="250px" alt="${article.title}">` : ''}
                   </figure>
                   <header class="entry-header">
                       <h2 class="entry-hint-parent">${article.title}</h2>
