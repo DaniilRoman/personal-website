@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
               <footer class="entry-footer">
                   <span title="${toDate(article.pubDate)}">${toDate(article.pubDate)}</span>&nbsp;·&nbsp;${article.author}
               </footer>
-                  <a class="entry-link" aria-label="post link to ${article.title}" href="${article.link}"></a>
+                  <a class="entry-link" aria-label="post link to ${article.title}" href="${article.link}" target="_blank"></a>
               </article>
             `;
           }
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function() {
               <footer class="entry-footer">
                   <span title="${toDate(article.published_timestamp)}">${toDate(article.published_timestamp)}</span>&nbsp;·&nbsp;${article.user.name}
               </footer>
-                  <a class="entry-link" aria-label="post link to ${article.title}" href="${article.url}"></a>
+                  <a class="entry-link" aria-label="post link to ${article.title}" href="${article.url}" target="_blank"></a>
               </article>
             `;
           }
