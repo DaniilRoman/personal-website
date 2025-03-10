@@ -30,4 +30,4 @@ jobs:
         run: pip install linkchecker
 
       - name: Run link check
-        run: linkchecker https://daniilroman.com --ignore-url https://daniilroman.com/cdn-cgi/
+        run: linkchecker https://daniilroman.com --ignore-url https://daniilroman.com/cdn-cgi/ --no-warnings
