@@ -31,6 +31,14 @@ disableprofile: true
 </style>
 
 <div class="project-container">
+  <img src="/projects/newsletter.webp" alt="Databases newsletter Logo">
+  <p class="project-title"><a href="https://databasesradar.substack.com/">Databases Newsletter</a></p>
+</div>
+<p>The Databases market is evolving very rapidly. That's why I'm making this newsletter to kill the FOMO in this field.</p>
+
+---
+
+<div class="project-container">
   <img src="/projects/map-logo.svg" alt="Timeline Map Logo">
   <p class="project-title"><a href="https://timelinemap.daniilroman.com">Timeline Map</a></p>
 </div>
