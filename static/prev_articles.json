@@ -1,5 +1,22 @@
 [
     {
+        "title": "Automate Your Java Upgrades: A Practical Case Study with OpenRewrite and GitHub Actions",
+        "pubDate": "2025-10-07 09:46:44",
+        "link": "https://medium.com/berlin-tech-blog/automate-your-java-upgrades-a-practical-case-study-with-openrewrite-and-github-actions-44275f841082",
+        "guid": "https://medium.com/p/44275f841082",
+        "author": "Daniil Roman",
+        "thumbnail": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*qFYiBfIkPbmHTYLaiCrYKQ.jpeg",
+        "description": "How the Search&Discovery team at Kleinanzeigen uses GitHub Actions to run open-source OpenRewrite recipes on 14 Java services on a scheduled basis",
+        "content": "How the Search&Discovery team at Kleinanzeigen uses GitHub Actions to run open-source OpenRewrite recipes on 14 Java services on a scheduled basis",
+        "enclosure": {},
+        "categories": [
+            "java",
+            "openrewrite",
+            "github-actions",
+            "tech-debt"
+        ]
+    },
+    {
         "title": "Make data migration easy with Debezium and Apache Kafka",
         "pubDate": "2025-01-28 09:46:44",
         "link": "https://medium.com/adevinta-tech-blog/make-data-migration-easy-with-debezium-and-apache-kafka-4c9e2b9b6601?source=rss-ea55ac2dd44d------2",
