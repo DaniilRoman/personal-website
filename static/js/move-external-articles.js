@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
     .then(articles => {
       var externalArticlesHTML = `
       <section id="external-articles" class="external-articles">
-        <h2>Previous articles:</h2><br/>
+        <h2>Articles from different platforms:</h2><br/>
         ${articles.map(article => {
           // Handle Medium articles
           if (article.guid) {
